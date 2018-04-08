@@ -1,6 +1,17 @@
 header {
    box-shadow: 0px 0px 10px 0px #666;
 
+   #logo {
+      a {
+         display: block;
+         width: 100%;
+         img {
+            width: 100%;
+            height: auto;
+         }
+      }
+   }
+
    #header-social {
       .social-icon {
          margin-left: 15px;

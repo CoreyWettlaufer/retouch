@@ -11,11 +11,11 @@
         <header class="container-fluid">
            <div class="container">
              <div class="row justify-content-between padding25">
-               <div id="logo" class="col col-lg-3 col-md-3 col-sm-4 align-self-center">
-                  <h1>Logo Will Go Here</h1>
+               <div id="logo" class="col col-lg-4 col-md-4 col-sm-12 align-self-center">
+                  <a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_url'); ?>/img/layout/challengher-retouch-logo.png" alt="ChallengHer Retouch Logo"></a>
                </div>
 
-               <div id="header-social" class="col col-lg-3 col-md-3 col-sm-4 align-self-center d-flex justify-content-end flex-column">
+               <div id="header-social" class="col col-lg-8 col-md-8 col-sm-12 align-self-end align-items-end d-flex justify-content-end flex-column">
                   <div class="social-section">
                      <a href="" class="social-icon"><img src="<?php bloginfo('template_url'); ?>/img/icons/facebook-icon.png" alt="facebook icon"></a>
                      <a href="" class="social-icon"><img src="<?php bloginfo('template_url'); ?>/img/icons/twitter-icon.png" alt="twitter icon"></a>
