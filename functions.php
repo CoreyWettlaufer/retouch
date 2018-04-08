@@ -1,13 +1,13 @@
 <?php
 define("THEME_DIR", get_template_directory_uri() . '/');
 
-include(dirname(TEMPLATEPATH).'/custom/admin/theme-setup.php');
-include(dirname(TEMPLATEPATH).'/custom/admin/header-mast.php');
-include(dirname(TEMPLATEPATH).'/custom/admin/enqueue-styles.php');
-include(dirname(TEMPLATEPATH).'/custom/admin/enqueue-scripts.php');
-include(dirname(TEMPLATEPATH).'/custom/admin/sidebars.php');
-include(dirname(TEMPLATEPATH).'/custom/admin/menus.php');
-include(dirname(TEMPLATEPATH).'/custom/admin/custom-shortcodes.php');
+include(dirname(TEMPLATEPATH).'/retouch/admin/theme-setup.php');
+include(dirname(TEMPLATEPATH).'/retouch/admin/header-mast.php');
+include(dirname(TEMPLATEPATH).'/retouch/admin/enqueue-styles.php');
+include(dirname(TEMPLATEPATH).'/retouch/admin/enqueue-scripts.php');
+include(dirname(TEMPLATEPATH).'/retouch/admin/sidebars.php');
+include(dirname(TEMPLATEPATH).'/retouch/admin/menus.php');
+include(dirname(TEMPLATEPATH).'/retouch/admin/custom-shortcodes.php');
 
 // Custom Excerpt Length and Read More Tag
 function new_excerpt_more($more) {
