@@ -1,0 +1,29 @@
+header {
+   box-shadow: 0px 0px 10px 0px #666;
+
+   #header-social {
+      .social-icon {
+         margin-left: 15px;
+
+         &:hover {
+            animation: zoom 500ms linear;
+            opacity: 0.5;
+
+            img {
+               animation: spin 500ms linear;
+            }
+         }
+      }
+   }
+
+   nav {
+      ul {
+         list-style-type: none;
+
+         li {
+            display: inline-block;
+            margin-left: 1rem;
+         }
+      }
+   }
+}

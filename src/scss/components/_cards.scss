@@ -1,0 +1,30 @@
+.card {
+   background: #f5efef;
+   background: rgb(248, 247, 252);
+   color: #000;
+   font-style: italic;
+   box-shadow: 1px 2px 5px 0 #999;
+   border-radius: 5px;
+   padding: 15px 25px;
+
+   div, div p {
+      img {
+         display: block;
+          margin: 0 auto;
+      }
+   }
+
+   h3 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      color: $primaryColor;
+   }
+
+   .button {
+      margin: 0 auto;
+      margin-top: 30px;
+      &.btnWhite {
+
+      }
+   }
+}

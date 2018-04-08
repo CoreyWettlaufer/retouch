@@ -1,0 +1,36 @@
+.button, button {
+   text-align: center;
+   padding: 10px 15px;
+   color: #000;
+   text-transform: uppercase;
+   border: none;
+   font-size: 2rem;
+   min-width: 216px;
+   width: 216px;
+   max-width: 100%;
+   display: block;
+   box-shadow: 1px 2px 5px 0 #999;
+   border-radius: 5px;
+
+   &.primaryBtn {
+      background: $primaryColor;
+   }
+
+   &.secondaryBtn {
+      background: $secondaryColor;
+   }
+
+   &.altBtnPink {
+      background: $tertiaryColor;
+   }
+   &.btnWhite {
+      background: #FFF;
+   }
+
+   &:hover {
+      background: rgb(154, 154, 158);
+      color: #000;
+      text-decoration: none;
+      animation: buttonZoom 200ms linear;
+   }
+}
